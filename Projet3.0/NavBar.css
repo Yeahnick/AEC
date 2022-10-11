@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(62, 62, 62);
+}
+.navbar-collapse{
+    background-color: rgb(73, 73, 73);
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+lord-icon{
+    margin-right: 15px;
+}
+.navbar{
+    background-color: rgb(73, 73, 73);
+    height: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.title{   
+    font-size:xx-large;
+        background:
+            linear-gradient(to right,
+                #c985cb,
+                #90eafe);
+        display: inline-block; 
+
+        -webkit-background-clip: text;
+        background-clip: text; 
+
+        color: transparent;
+}
+.title:hover{
+        background:
+            linear-gradient(to right,
+                #c985cb,
+                #90eafe);
+        display: inline-block; 
+        -webkit-background-clip: text;
+        background-clip: text; 
+        color: transparent;
+}
+.item-absolute{
+   /* display: none;*/
+    width: 15px;
+    text-align: center;
+    border-radius: 10em;
+    background-color: white;
+    position: absolute;
+    translate: 10px -40px;
+}

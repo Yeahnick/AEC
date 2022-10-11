@@ -1,0 +1,84 @@
+/*CSS pour le carousel  -- inspired from youtube.com/c/OnlineTutorials4Designers */
+.swiper-container
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20%;
+  
+}
+.swiper-slide
+{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 380px;
+  background: #666666;
+}
+.swiper-slide .imgBx
+{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.swiper-slide .imgBx img
+{
+  width: 99.3%;                      /*border around pic*/
+  padding: 7px;
+}
+.swiper-slide .details
+{
+  box-sizing: border-box;
+  padding: 20px;
+}
+.swiper-slide .details h3
+{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #FFF;
+}
+.swiper-slide .details h3 span
+{
+  font-size: 16px;
+  color: #45f3ff;
+}
+
+/*animate colors when hover on product cards -- done with https://www.gradient-animator.com */
+.swiper-slide:hover{
+    background: linear-gradient(19deg, #21d4fd, #b721ff, #c4d0ff);
+	  background-size: 600% 600%;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+
+.imgBx {
+   filter: grayscale(70%);
+}
+.imgBx:hover {
+   filter: none;
+}
